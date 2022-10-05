@@ -10,3 +10,21 @@ body {
     font-family: 'Allan', cursive;
     font-weight: 300;
 }
+
+/* headings and logo */
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
