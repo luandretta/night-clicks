@@ -7,13 +7,13 @@
 }
 
 body {
-    font-family: 'Allan', cursive;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
 /* headings and logo */
 h1, h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Allan', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -63,7 +63,24 @@ a {
  }
 
  #hero-image {
-    background: url("../image/hero-image(1).jpg") no-repeat center center;
+    background: url("../image/hero-image.jpg") no-repeat center center;
     height: 600px;
     width: 100%;
+    background-size: cover;
  }
+
+ #box {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 130px;
+    padding: 15px 10px;
+    background-color: rgba(226, 226, 226, .6);
+    right: 15px;
+    bottom: 15px;
+    border-radius: 15px;
+    position: absolute;
+ }
+ 
+
