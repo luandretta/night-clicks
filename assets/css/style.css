@@ -53,3 +53,17 @@ a {
 #menu a:hover {
         font-size: 1.2em;
  }
+
+ /* hero image */
+ #hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+ }
+
+ #hero-image {
+    background: url("../image/hero-image(1).jpg") no-repeat center center;
+    height: 600px;
+    width: 100%;
+ }
