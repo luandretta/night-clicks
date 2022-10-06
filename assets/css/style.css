@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allan&family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Lato:wght@300&display=swap");
 
 * {
     margin: 0;
@@ -7,22 +7,18 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
 }
 
 /* headings and logo */
-h1, h2, h3 {
-    font-family: 'Allan', cursive;
+h1,
+h2,
+h3 {
+    font-family: "Allan", cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-}
-
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 20px;
 }
 
 a {
@@ -36,51 +32,50 @@ nav {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     line-height: 75px;
     letter-spacing: 2px;
 }
 
 #logo {
-    font-size: 70px;
-    letter-spacing: 2px;
-    font-weight: 600px;
+    font-size: 280px;
+    font-size: 280%;
 }
 
 nav ul {
-     display: flex;
-     align-items: center;
-     list-style: none;
-     padding: 10 px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10 px;
 }
 
-nav li {
+nav li  a {
     margin-left: 20px;
+    padding: 10px;
 }
 
 nav li a:hover {
-        background-color:  #252525;
-        color: #fff;
-        padding: 5px;
-        border-radius: 3px;
- }
+    background-color: #252525;
+    color: #fff;
+    border-radius: 3px;
+}
 
- /* hero image */
- #hero-outer {
+/* hero image */
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
- }
+}
 
- #hero-image {
+#hero-image {
     background: url("../image/hero-image.jpg") no-repeat center center;
     height: 600px;
     width: 100%;
     background-size: cover;
- }
+}
 
- #box {
+#box {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -92,8 +87,8 @@ nav li a:hover {
     bottom: 15px;
     border-radius: 15px;
     position: absolute;
- }
- 
+}
+
 /* text section  and events */
 .cover-text {
     text-align: center;
@@ -112,34 +107,34 @@ nav li a:hover {
 #events {
     margin: 10px 20px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
-#events > div {
+#events>div {
     border-radius: 1em;
     width: 310px;
     height: 120px;
     margin: 10px;
     padding: 8px;
-    background-color: aquamarine; 
+    background-color: aquamarine;
 }
 
 /* Footer */
-footer{
+footer {
     height: 50px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -152,7 +147,7 @@ footer{
     flex-wrap: wrap;
 }
 
-#gallery > div {
+#gallery>div {
     background-color: blue;
     font-size: 20px;
     margin: 20px;
