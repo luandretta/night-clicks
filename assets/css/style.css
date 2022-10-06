@@ -93,4 +93,35 @@ nav li a:hover {
     position: absolute;
  }
  
+/* text section  below hero image */
+.cover-text {
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    font-size: 130%
+}
+
+.cover-text p {
+    padding: 15px;
+}
+
+/* Footer */
+footer{
+    height: 50px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
