@@ -92,7 +92,7 @@ nav li a:hover {
 /* text section  and events */
 .cover-text {
     text-align: center;
-    margin: 30px;
+    margin: 15px;
     font-size: 130%
 }
 
@@ -110,6 +110,7 @@ nav li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 #events>div {
@@ -118,26 +119,27 @@ nav li a:hover {
     height: 120px;
     margin: 10px;
     padding: 8px;
-    background-color: aquamarine;
+    background-color: rgba(226, 226, 226);
 }
 
 /* Footer */
 footer {
-    height: 50px;
+    text-align: center;
+    
 }
 
 .social-networks {
-    text-align: center;
+   text-align: center;
+   padding-top: 10px;
 }
 
 .social-networks li {
-    display: inline;
+     display: inline;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 180%;
+    padding: 0px 15px 10px;
     color: #252525;
 }
 
