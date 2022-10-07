@@ -38,19 +38,16 @@ nav {
 }
 
 #logo {
-    font-size: 280px;
-    font-size: 280%;
+       font-size: 280%;
 }
 
 nav ul {
     display: flex;
     align-items: center;
     list-style: none;
-    padding: 10 px;
 }
 
 nav li a {
-    margin-left: 20px;
     padding: 10px;
 }
 
@@ -139,7 +136,8 @@ footer {
 
 .social-networks i {
     font-size: 180%;
-    padding: 0px 15px 10px;
+    margin: 1%;
+    padding: 10%;
     color: #252525;
 }
 
@@ -161,7 +159,6 @@ footer {
 }
 
 #gallery img:hover {
-    cursor: pointer;
     opacity: 0.5;
     transition: 0.5s;
 }
