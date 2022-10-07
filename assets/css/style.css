@@ -38,7 +38,7 @@ nav {
 }
 
 #logo {
-       font-size: 280%;
+    font-size: 280%;
 }
 
 nav ul {
@@ -122,7 +122,6 @@ nav li a:hover {
 /* Footer */
 footer {
     text-align: center;
-
 }
 
 .social-networks {
@@ -136,8 +135,7 @@ footer {
 
 .social-networks i {
     font-size: 180%;
-    margin: 1%;
-    padding: 10%;
+    margin: 3%;
     color: #252525;
 }
 
