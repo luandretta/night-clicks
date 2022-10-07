@@ -49,7 +49,7 @@ nav ul {
     padding: 10 px;
 }
 
-nav li  a {
+nav li a {
     margin-left: 20px;
     padding: 10px;
 }
@@ -110,7 +110,7 @@ nav li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    
+
 }
 
 #events>div {
@@ -125,16 +125,16 @@ nav li a:hover {
 /* Footer */
 footer {
     text-align: center;
-    
+
 }
 
 .social-networks {
-   text-align: center;
-   padding-top: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .social-networks li {
-     display: inline;
+    display: inline;
 }
 
 .social-networks i {
@@ -147,12 +147,21 @@ footer {
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-#gallery>div {
-    background-color: blue;
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    width: 200px;
+#gallery img {
+    width: 300px;
+    height: 300px;
+    background-color: #252525;
+    padding: 10px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+}
+
+#gallery img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
 }
