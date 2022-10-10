@@ -9,6 +9,9 @@
 body {
     font-family: "Lato", sans-serif;
     font-weight: 300;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* headings and logo */
@@ -29,7 +32,7 @@ a {
 /* navigation */
 
 nav {
-    padding: 10px 20px;
+    padding: 10px 10px 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,10 +89,10 @@ nav li a:hover {
     position: absolute;
 }
 
-#arrow-down i {
-    margin-bottom: -10px;
-    color: #fff;
-    position: center;
+#pages-titles {
+    font-size: 180%;
+    color: #465866;
+    margin-left: 20px;
 }
 
 /* text section  and events */
@@ -113,7 +116,6 @@ nav li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-
 }
 
 #events>div {
@@ -128,6 +130,7 @@ nav li a:hover {
 /* Footer */
 footer {
     text-align: center;
+    margin: 20px 0 10px;
 }
 
 .social-networks {
@@ -143,6 +146,46 @@ footer {
     font-size: 180%;
     margin: 3%;
     color: #252525;
+}
+
+footer p {
+    color: #465866;
+}
+
+/* Pages titles */
+.pages-titles {
+    font-size: 180%;
+    color: #465866;
+    margin-left: 20px;
+}
+/* About  */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 18px;
+}
+
+.card-image img {
+    width: 300px;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+    padding: 10px;
+    background-color: #a1a8ba;
+}
+
+.card-text {
+    font-size: 120%;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    background-color: #a1a8ba;
+   
+}
+
+.card-text p {
+    padding: 15px 0;
 }
 
 /* gallery */
@@ -169,29 +212,28 @@ footer {
 
 /* contact */
 .contact-section {
-   background-color: rgb(7, 56, 56);
-    margin: 20px;
-    padding: 50px;
-    align-content: center;
+   background-color: rgba(70,88,102,255);
+    padding: 50px 0;
+    margin: 15px 20px;
 }
 
 .get-in-touch {
-  left: 30%;
-    color: #fff;
-    background-color: #b9e519;
+    color: #252525;
+    background-color: #a1a8ba;
     max-width: 400px;
     padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .get-in-touch > h2 {
     color: #fff;
     margin-bottom: 20px;
-
 }
 
 .text-input {
-    background: transparent;
-    color: #fff;
+    background: #bbc1cd;
+    color: #465866;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -205,11 +247,9 @@ footer {
 
 .send-button {
     margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
+    padding: 10px;
     font-size: 100%;
-    background-color: #252525;
+    background-color: #465866;
     color: #fff;
     display: block;
     border-radius: 5px;
@@ -217,5 +257,10 @@ footer {
 
 .send-button:hover {
     background-color: #fff;
-    color: #252525;
+    color: #465866;
+}
+
+#textarea {
+   max-width: 400px;
+   border-radius: 2px;
 }
