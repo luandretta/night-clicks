@@ -30,20 +30,28 @@ a {
     color: #252525;
 }
 
-/* navigation */
-
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
+
+.pages-titles {
+    clear: both;
+    font-size: 180%;
+    color: #465866;
+    margin-left: 20px;
+}
+
+/* navigation */
 
 #menu {
-   font-size: 110%;
-   letter-spacing: 0.125rem;
+    font-size: 110%;
+    letter-spacing: 0.125rem;
 }
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 75px;
 }
 
@@ -80,23 +88,16 @@ a {
 }
 
 #box {
-    font-size: 130%;
+    font-size: 170%;
     text-transform: uppercase;
     letter-spacing: 2px;
     width: 250px;
-    height: 130px;
     padding: 15px 10px;
-    background-color: rgba(226, 226, 226, .6);
+    background-color: rgba(161, 168, 186, .8);
     right: 15px;
     bottom: 15px;
     border-radius: 15px;
     position: absolute;
-}
-
-#pages-titles {
-    font-size: 180%;
-    color: #465866;
-    margin-left: 20px;
 }
 
 /* text section  and events */
@@ -122,7 +123,7 @@ a {
     justify-content: center;
 }
 
-#events > div {
+#events>div {
     border-radius: 1em;
     width: 310px;
     height: 120px;
@@ -156,12 +157,6 @@ footer p {
     color: #465866;
 }
 
-/* Pages titles */
-.pages-titles {
-    font-size: 180%;
-    color: #465866;
-    margin-left: 20px;
-}
 
 /* About  */
 .team {
@@ -171,26 +166,30 @@ footer p {
     margin: 18px;
 }
 
+.card-image {
+    background-color: #a1a8ba;
+}
+
 .card-image img {
     width: 300px;
     height: 250px;
+    padding: 10px;
     object-position: center;
     object-fit: cover;
-    padding: 10px;
-    background-color: #a1a8ba;
+    box-sizing: border-box;
 }
 
 .card-text {
-    font-size: 120%;
     width: 300px;
-    height: 250px;
-    padding: 10px;
+    height: 253px;
+    box-sizing: border-box;
     background-color: #a1a8ba;
-
+    padding-top: 12px;
 }
 
 .card-text p {
-    padding: 15px 0;
+    padding: 15px 10px;
+    font-size: 150%;
 }
 
 .iframe-container {
@@ -218,7 +217,7 @@ footer p {
 #gallery img {
     width: 300px;
     height: 300px;
-    background-color:#a1a8ba;
+    background-color: #a1a8ba;
     padding: 10px;
     object-fit: cover;
     object-position: center;
@@ -283,3 +282,29 @@ footer p {
     max-width: 400px;
     border-radius: 2px;
 }
+
+/* Media queries */
+
+
+/* For medium screens sizes from 700px wide and down */
+@media screen and (max-width: 700px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+}
+
+/* For small screens sizes from 800px wide and down
+@media screen and (max-width: 800px) {
+
+    #menu {
+        margin-left: 7px;
+    }
+
+} */
