@@ -12,6 +12,7 @@ body {
     max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 0.8rem;
 }
 
 /* headings and logo */
@@ -20,7 +21,7 @@ h2,
 h3 {
     font-family: "Allan", cursive;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     color: #252525;
 }
 
@@ -31,30 +32,33 @@ a {
 
 /* navigation */
 
-nav {
-    padding: 10px 10px 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 75px;
-    letter-spacing: 2px;
-}
-
 #logo {
+    float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
+#menu {
+   font-size: 110%;
+   letter-spacing: 0.125rem;
 }
 
-nav li a {
-    padding: 10px;
+#logo, #menu {
+    line-height: 75px;
 }
 
-nav li a:hover {
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+#menu a {
+    color: inherit;
+    padding: 10px 5px;
+}
+
+#menu a:hover {
     background-color: #252525;
     color: #fff;
     border-radius: 3px;
@@ -118,7 +122,7 @@ nav li a:hover {
     justify-content: center;
 }
 
-#events>div {
+#events > div {
     border-radius: 1em;
     width: 310px;
     height: 120px;
@@ -189,28 +193,6 @@ footer p {
     padding: 15px 0;
 }
 
-/* gallery */
-#gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#gallery img {
-    width: 300px;
-    height: 300px;
-    background-color: #252525;
-    padding: 10px;
-    object-fit: cover;
-    object-position: center;
-    margin: 10px;
-}
-
-#gallery img:hover {
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
 .iframe-container {
     position: relative;
     width: 100%;
@@ -226,9 +208,31 @@ footer p {
     height: 100%;
 }
 
+/* gallery */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 300px;
+    height: 300px;
+    background-color:#a1a8ba;
+    padding: 10px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+}
+
+#gallery img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
 /* contact */
 .contact-section {
-    background-color: rgba(70, 88, 102, 255);
+    background-color: #465866;
     padding: 50px 0;
     margin: 15px 20px;
 }
