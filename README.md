@@ -17,8 +17,8 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
   * [Acessibility](#accessibility)
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
-  * [Imagery] (#imagery)
-  * [Wireframes](#wireframes)
+  * [Imagery](#imagery)
+  * [Icon](#icon)
 * [Technologies Used](#technologies-used)
 * []()
 * []()
@@ -92,7 +92,9 @@ The user can specify if he would like to give feedback or if he has a question o
 The buttom of the form contains a Send Message.
 
 
+
 ### Existing Features
+- - -
 All Pages on the website have: 
 - Header Logo
 Exist on the top left. Clicking the logo returns users to the home page as they would expect.
@@ -106,6 +108,7 @@ The links will open to a new tab to allow easy navigation for the user.
 
 
 ### Future Implementations
+- - -
 To the future implementations more time and knowledge is needed to develop more pages on the site, with more responsiveness.
 - Option to choose the language of the website
 As the community is based in Berlin, this would allow German speaking visitors to the website to view it in their native language. Native speaker is not available to translate it for free at the time.
@@ -142,12 +145,16 @@ The greyscale color scheme was chosen to create a modern, minimalist and elegant
 
 ## Typography
 The fonts Allan und Lato are imported from Google Fonts.
-
+  
 
 ## Imagery
 All images used within the site has been downloaded from  [unsplasch](https://unsplash.com/), [pixabay](https://pixabay.com/de/) and [pexels](https://www.pexels.com/de-de/).
+The images were compacted and resized using [pixlr](https://pixlr.com/de/x/).
 
-## Wireframes
+## Icon
+The icons were from [font awesome](https://fontawesome.com/icons)
+
+
 
 - - -
 ## Technologies Used
@@ -168,9 +175,14 @@ All images used within the site has been downloaded from  [unsplasch](https://un
 
 4. GitHub
 
-5. Pixlr
+## Deployment
 
-6. Unsplash, Pixabay and Pexels:
+### GitHub Pages
+
+
+### Testing
+
+
 
 ## Credits
 
@@ -187,6 +199,3 @@ My Mentor for continuous helpful feedback.
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure ther were no syntax errors in the project.
 
 
-## Deployment
-
-### GitHub Pages
