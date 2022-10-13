@@ -75,9 +75,25 @@ Below the image the user will find brief information to awake the interest to pa
 After reinforcing the emotional response positively in the user, there are there are upcoming meetings with dates and locations.
 
 **About page**
-The **About** page features The About page has four divisions. First, there is information about the community. Second, about the characteristics of a future supporter. The third is with  information about how to participate in the community. 
 
-At the bottom of the page (above the footer) there is a video with tips on urban night photography
+The **About** page features The About page has four divisions and allows the future member to connect with the community without overloading then with information.
+First, there is information about the community. 
+Second, about the characteristics of a future member.
+The third is with  information about how to participate in the community. 
+Finnaly, at the bottom of the page (above the footer) there is a video to check out some tips on street photography at night.
+
+**Gallery**
+The **Gallery** is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+It allows all users to appreciate the results of the latest meetings. 
+The hover effect has the opacity effect, producing a new look for each photo.
+ 
+
+**Contact**
+The **contact** page features a contact form, which requests user name and email and has a box to leave a message.
+The user can specify if he would like to give feedback or if he has a question or suggestion.
+The buttom of the form contains a Send Message.
+
+
 
 
 ## Color Scheme
