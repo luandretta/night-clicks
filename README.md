@@ -21,14 +21,35 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
 
 
 # User Experience (UX)
+
+## The ideal users for this community is:
+ * Searching for people to photograph together in the streets at night. 
+ * Lives in Berlin.
+ * Like about shooting at night.
+ * Enjoy the lights.
+ * Open-Minded.
+
 ## User stories
 
-* First Time Visitor, 
- *I expect to easily to understand the main purpose of the site, navigate without complications and I also want to find their social media links to see their followings and their comments.</li>
-* As a Returning Visitor, I want to find precise information about the meetups and how I could participate.</li>
-* As a Frequent User, I want to follow scheduled events and appreciate updated photo gallery</li>
+### First Time Visitor Goals
+ * As a new visitor to the website, I expect to easily to understand the main purpose of the site and navigate without complications. 
+ * I can find what I search efficiently.
+ * I want view their results as amateur photographers.
+ * I want to learn more about the community, so I can feel confortable to meet the group.
+ * As an interested member, I want to know how I can take parte of it.
+ * I also want to find their social media links to see their followings and their comments.
 
-## Design
+### As a Returning Visitor
+ * I want to find precise information about the next session.
+ * I want to follow the new photos after a photo session.
+ * I want to fill a form to give feedbacks or to ask any questions.
+
+### As a Frequent User 
+ * I want to follow scheduled events.
+ * I want to appreciate updated photo gallery.
+
+
+# Design
 
 ### Color Scheme
 
