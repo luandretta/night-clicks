@@ -255,6 +255,10 @@ footer p {
     margin-bottom: 20px;
 }
 
+label {
+
+}
+
 .text-input {
     color: #465866;
     width: 100%;
@@ -266,6 +270,18 @@ footer p {
 
 .text-input:hover {
     border-color: #252525;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+}
+
+#textarea {
+    width: 400px;
+    height: 100px;
+    border-radius: 2px;
+    padding-top: 6px;
 }
 
 .send-button {
@@ -283,10 +299,6 @@ footer p {
     color: #465866;
 }
 
-#textarea {
-    max-width: 400px;
-    border-radius: 2px;
-}
 
 /* Media queries */
 
@@ -307,4 +319,3 @@ footer p {
         font-size: 100%;
     }
 }
-
