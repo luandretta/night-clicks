@@ -108,8 +108,27 @@ The links will open to a new tab to allow easy navigation for the user.
 
 
 ### Future Implementations
-- 
+To the future implementations more time and knowledge is needed to develop more pages on the site, with more responsiveness.
+- Option to choose the language of the website
+As the community is based in Berlin, this would allow German speaking visitors to the website to view it in their native language. Native speaker is not available to translate it for free at the time.
 
+- FAQ page
+It gives users answers to their common questions.
+
+- Add CAPTCHA
+To protect the contact form from spam.
+
+- Blog
+The articles give the user more confidence and attract more members and traffic to the site.
+
+- Newsletter Sign Up
+To keep users up to date.
+
+- Buttun back to the top
+For easy scroll-free return to the top.
+
+- Menu "hamburger"
+For more responsiveness.
 
 
 ## Color Scheme
