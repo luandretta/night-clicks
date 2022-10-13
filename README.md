@@ -8,17 +8,20 @@ The night reveals how the lights reflect perfectly, highlighting the beauty of B
 
 A live demo can be found [here](https://luandretta.github.io/night-clicks/)
 
+- - -
+
 # Contents
 * [User Experience](#user-experience-ux)
 * [Design](#design)
-* []()
+  * [Technologies](#technologies)
+  * [Features](#features)
 * []()
 * []()
 * []()
 * []()
 * []()
 
-
+- - - 
 
 # User Experience (UX)
 
@@ -48,22 +51,47 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
  * I want to follow scheduled events.
  * I want to appreciate updated photo gallery.
 
+- - -
 
 # Design
 
-### Color Scheme
+## Technologies
+* HTML5
+* CSS3
 
-### Typography
 
-### Imagery
+## Features
 
-### Wireframes
+The website is comprised of 4 pages, the index page, the about page, the gallery page and the contact page.
+
+Each page has a logo (top left), a navigation bar and a footer.
+
+
+**Index page**
+
+The **Home** page is divided into 3 sections, the hero image, the information section and the events section.
+The hero image has the purpose to grab attention and give a positive impact to the user. 
+Below the image the user will find brief information to awake the interest to participate in the community.
+After reinforcing the emotional response positively in the user, there are there are upcoming meetings with dates and locations.
+
+**About page**
+The **About** page features The About page has four divisions. First, there is information about the community. Second, about the characteristics of a future supporter. The third is with  information about how to participate in the community. 
+
+At the bottom of the page (above the footer) there is a video with tips on urban night photography
+
+
+## Color Scheme
+The greyscale color scheme was chosen to create a sleek and modern feel. 
+
+## Typography
+
+## Imagery
+
+## Wireframes
 
 ## Technologies Used
 
-### Languages Used
-* HTML5
-* CSS3
+
 
 ### Frameworks, Libraries & Programs Used
 
