@@ -11,6 +11,7 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
 - - -
 
 # Contents
+* [Languages Used](#languages-used)
 * [User Experience](#user-experience-ux)
 * [Design](#design)
   * [Features](#features)
@@ -18,11 +19,17 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Icon](#icon)
-* [Technologies Used](#technologies-used)
-* []()
-* []()
+  * [Icons](#icons)
+* [Deployment](#deployment)
+  * [Run locally](#run-locally)
+  * [Testing](#testing)
+* [Credits](#credits)
 
+- - - 
+
+# Languages Used
+* HTML5
+* CSS3
 - - - 
 
 # User Experience (UX)
@@ -65,14 +72,15 @@ The website is comprised of 4 pages, the index page, the about page, the gallery
 Each page has a logo (top left), a navigation bar and a footer.
 
 
-**Index page**
+
+ ### **Index page**
 
 The **Home** page is divided into 3 sections, the hero image, the information section and the events section.
 The hero image has the purpose to grab attention and give a positive impact to the user. 
 Below the image the user will find brief information to awake the interest to participate in the community.
 After reinforcing the emotional response positively in the user, there are there are upcoming meetings with dates and locations.
 
-**About page**
+ ### **About page**
 
 The **About** page features The About page has four divisions and allows the future member to connect with the community without overloading then with information.
 First, there is information about the community. 
@@ -80,21 +88,21 @@ Second, about the characteristics of a future member.
 The third is with  information about how to participate in the community. 
 Finnaly, at the bottom of the page (above the footer) there is a video to check out some tips on street photography at night.
 
-**Gallery**
+ ### **Gallery**
 The **Gallery** is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 It allows all users to appreciate the results of the latest meetings. 
 The hover effect has the opacity effect, producing a new look for each photo.
  
 
-**Contact**
+ ### **Contact**
 The **contact** page features a contact form, which requests user name and email and has a box to leave a message.
 The user can specify if he would like to give feedback or if he has a question or suggestion.
 The buttom of the form contains a Send Message.
 
 
-
 ### Existing Features
 - - -
+
 All Pages on the website have: 
 - Header Logo
 Exist on the top left. Clicking the logo returns users to the home page as they would expect.
@@ -110,25 +118,25 @@ The links will open to a new tab to allow easy navigation for the user.
 ### Future Implementations
 - - -
 To the future implementations more time and knowledge is needed to develop more pages on the site, with more responsiveness.
-- Option to choose the language of the website
+- Option to choose the language of the website - 
 As the community is based in Berlin, this would allow German speaking visitors to the website to view it in their native language. Native speaker is not available to translate it for free at the time.
 
-- FAQ page
+- FAQ page - 
 It gives users answers to their common questions.
 
-- Add CAPTCHA
+- Add CAPTCHA - 
 To protect the contact form from spam.
 
-- Blog
+- Blog - 
 The articles give the user more confidence and attract more members and traffic to the site.
 
-- Newsletter Sign Up
+- Newsletter Sign Up - 
 To keep users up to date.
 
-- Buttun back to the top
+- Buttun back to the top - 
 For easy scroll-free return to the top.
-
-- Menu "hamburger"
+s
+- Menu "hamburger" - 
 For more responsiveness.
 
 
@@ -138,10 +146,12 @@ The website is as accessible friendly as possible:
 - Using descriptive alt atributes on images on the site.
 - Providing information for screen readers where there are icons used and no text.
 - Ensuring that there is a sufficient colour contrast throughtout the site.
+I confirmed the accessibility by running it through lighthouse in devtools.
 
 
 ## Color Scheme
 The greyscale color scheme was chosen to create a modern, minimalist and elegant touch, not disturbing the images. 
+
 
 ## Typography
 The fonts Allan und Lato are imported from Google Fonts.
@@ -151,51 +161,50 @@ The fonts Allan und Lato are imported from Google Fonts.
 All images used within the site has been downloaded from  [unsplasch](https://unsplash.com/), [pixabay](https://pixabay.com/de/) and [pexels](https://www.pexels.com/de-de/).
 The images were compacted and resized using [pixlr](https://pixlr.com/de/x/).
 
-## Icon
+## Icons
 The icons were from [font awesome](https://fontawesome.com/icons)
 
+- - - 
 
+# Deployment
 
-- - -
-## Technologies Used
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-## Languages Used
-* HTML5
-* CSS3
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/luandretta/night-clicks), the following steps were taken: 
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. From the menu items near the top of the page, select **Settings**.
+4. Click on "Pages" in the left hand navigation panel.
+5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. 
+It can take some time for the page to be fully deployed.
+8. Your URL will be displayed above "Source"
 
+### Run locally
+**Fork**
+1. Login or Sign Up to GitHub.
+2. Open the project [repository](https://github.com/luandretta/night-clicks).
+3. Click the Fork button in the top right corner.
 
-
-### Frameworks, Libraries & Programs Used
-
-1. Google Fonts:
-
-2. Font Awesome
-
-3. Git
-
-4. GitHub
-
-## Deployment
-
-### GitHub Pages
-
-
-### Testing
-
-
-
-## Credits
-
-### Content
-All content was written by the developer.
-
-### Media
-All images were resized by the developer.
-
-### Acknowledgements
-My Mentor for continuous helpful feedback.
+**Clone**
+1. Login or Sign Up to GitHub.
+2. Open the project [repository](https://github.com/luandretta/night-clicks).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in the code editor of your choice and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure ther were no syntax errors in the project.
 
+
+# Credits
+
+## Content
+All content was written by me.
+
+## Acknowledgements
+The Festival of Lights in Berlin inspires me for this project.
+My family for their patiences as I disappeared to code.
+My Mentor Brian Macharia for continuous helpful feedback.
 
