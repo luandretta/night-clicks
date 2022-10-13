@@ -1,27 +1,48 @@
 # Night Clicks
 
-Night Clicks is a website of a community that is passionate about photography, loves to walk around at night, unprofessional, helpful and friendly. The site will be aimed at people who are looking for companionship to photograph together through the streets of Berlin.
+Night Clicks is a website of a community based in Berlin that is passionate about photography, loves to walk around at night, unprofessional, helpful and friendly. The site will be aimed at people who are looking for companionship to photograph together through the streets of Berlin.
+
 The night reveals how the lights reflect perfectly, highlighting the beauty of Berlin. The site contains precise information for users about all the events and how to be part of them.
 
 ## Demo
 
 A live demo can be found [here](https://luandretta.github.io/night-clicks/)
 
-## User Experience (UX)
+# Contents
+* [User Experience](#user-experience-ux)
+* [Design](#design)
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
 
-<ul>
-<li>As a First Time Visitor, I expect to easily to understand the main purpose of the site, navigate without complications and I also want to find their social media links to see their followings and their comments.</li>
-<li>As a Returning Visitor, I want to find precise information about the meetups and how I could participate.</li>
-<li>As a Frequent User, I want to follow scheduled events and appreciate updated photo gallery</li>
-</ul>
+
+
+# User Experience (UX)
+## User stories
+
+* First Time Visitor, 
+ *I expect to easily to understand the main purpose of the site, navigate without complications and I also want to find their social media links to see their followings and their comments.</li>
+* As a Returning Visitor, I want to find precise information about the meetups and how I could participate.</li>
+* As a Frequent User, I want to follow scheduled events and appreciate updated photo gallery</li>
+
+## Design
+
+### Color Scheme
+
+### Typography
+
+### Imagery
+
+### Wireframes
 
 ## Technologies Used
 
 ### Languages Used
-<ul>
-<li> HTML5
-<li> CSS3</li>
-</ul>
+* HTML5
+* CSS3
 
 ### Frameworks, Libraries & Programs Used
 
