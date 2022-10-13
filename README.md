@@ -13,11 +13,13 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
 # Contents
 * [User Experience](#user-experience-ux)
 * [Design](#design)
-  * [Technologies](#technologies)
   * [Features](#features)
-  * []()
-* []()
-* []()
+  * [Acessibility](#accessibility)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Imagery] (#imagery)
+  * [Wireframes](#wireframes)
+* [Technologies Used](#technologies-used)
 * []()
 * []()
 
@@ -54,10 +56,6 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
 - - -
 
 # Design
-
-## Technologies
-* HTML5
-* CSS3
 
 
 ## Features
@@ -131,16 +129,32 @@ For easy scroll-free return to the top.
 For more responsiveness.
 
 
+## Accessibility
+The website is as accessible friendly as possible:
+- Using semantic HTML
+- Using descriptive alt atributes on images on the site.
+- Providing information for screen readers where there are icons used and no text.
+- Ensuring that there is a sufficient colour contrast throughtout the site.
+
+
 ## Color Scheme
-The greyscale color scheme was chosen to create a sleek and modern feel. 
+The greyscale color scheme was chosen to create a modern, minimalist and elegant touch, not disturbing the images. 
 
 ## Typography
+The fonts Allan und Lato are imported from Google Fonts.
+
 
 ## Imagery
+All images used within the site has been downloaded from  [unsplasch](https://unsplash.com/), [pixabay](https://pixabay.com/de/) and [pexels](https://www.pexels.com/de-de/).
 
 ## Wireframes
 
+- - -
 ## Technologies Used
+
+## Languages Used
+* HTML5
+* CSS3
 
 
 
