@@ -15,7 +15,7 @@ A live demo can be found [here](https://luandretta.github.io/night-clicks/)
 * [Design](#design)
   * [Technologies](#technologies)
   * [Features](#features)
-* []()
+  * []()
 * []()
 * []()
 * []()
@@ -93,6 +93,22 @@ The **contact** page features a contact form, which requests user name and email
 The user can specify if he would like to give feedback or if he has a question or suggestion.
 The buttom of the form contains a Send Message.
 
+
+### Existing Features
+All Pages on the website have: 
+- Header Logo
+Exist on the top left. Clicking the logo returns users to the home page as they would expect.
+
+- Header Navigation Bar
+This allows the users to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button to find waht they are looking for quickly. 
+
+- Footer Social Icons
+This allows all users to access the social platforms from the community and to keep conected via social media.
+The links will open to a new tab to allow easy navigation for the user.
+
+
+### Future Implementations
+- 
 
 
 
