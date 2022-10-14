@@ -15,7 +15,13 @@ body {
     font-size: 0.8rem;
 }
 
-/* headings and logo */
+a {
+    text-decoration: none;
+    color: #252525;
+}
+
+/* headings */
+
 h1,
 h2,
 h3 {
@@ -25,10 +31,7 @@ h3 {
     color: #252525;
 }
 
-a {
-    text-decoration: none;
-    color: #252525;
-}
+/* header */
 
 #logo {
     float: left;
@@ -36,27 +39,12 @@ a {
     margin-left: 20px;
 }
 
-.active {
-    border-bottom: 1px solid #252525
-}
-
-.pages-titles {
-    clear: both;
-    font-size: 250%;
-    color: #465866;
-    text-align: center;
-    margin: 35px;
-}
-
-/* navigation */
-
 #menu {
     font-size: 110%;
     letter-spacing: 0.125rem;
 }
 
-#logo,
-#menu {
+#logo, #menu {
     line-height: 75px;
 }
 
@@ -75,6 +63,10 @@ a {
     background-color: #252525;
     color: #fff;
     border-radius: 3px;
+}
+
+.active {
+    border-bottom: 1px solid #252525
 }
 
 /* hero image */
@@ -128,7 +120,7 @@ a {
     justify-content: center;
 }
 
-#events>div {
+#events > div {
     border-radius: 1em;
     width: 310px;
     height: 120px;
@@ -164,6 +156,14 @@ footer p {
 
 
 /* About  */
+.pages-titles {
+    clear: both;
+    font-size: 250%;
+    color: #465866;
+    text-align: center;
+    margin: 35px;
+}
+
 .team {
     display: flex;
     flex-wrap: wrap;
@@ -242,9 +242,10 @@ iframe {
     margin-right: auto;
 }
 
-.get-in-touch>h2 {
+.get-in-touch > h2 {
     color: #fff;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .text-input {
