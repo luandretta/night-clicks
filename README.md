@@ -146,7 +146,8 @@ The website is as accessible friendly as possible:
 - Using descriptive alt atributes on images on the site.
 - Providing information for screen readers where there are icons used and no text.
 - Ensuring that there is a sufficient colour contrast throughtout the site.
-I confirmed the accessibility by running it through lighthouse in devtools.
+
+The accessibility was confirmed by running it through lighthouse in devtools.
 
 
 ## Color Scheme
@@ -205,7 +206,6 @@ The performance was tested manual and automated testing.
 * All text is visable and appropriately positioned, text sizing and font are legible.
 * All links in the webpages are working correctly and there are no broken links.
 * The navbar links work correctly and the user is directed to the correct page each time.
-* 
 * The active page is pointed correctly in the menu.
 * The navigation links change text colour when hovering over.
 * Footer look the same on all pages. 
@@ -222,14 +222,17 @@ The performance was tested manual and automated testing.
 
 ## Usability
 The Navigation was tested. The menu is easily visible, consistent on all webpages. The users find resources on the site intuitively.
+
 The images contain an "alt" text.
 
 ## Compatibility 
 The website displays correctly across different browsers and screen sizes.
+
 It was checked on Chrome, Firefox, Safari and Edge.
 
 ## Responsiveness
 Chrome developer tool have been used to check the responsivness. The application was tested on very small screens e.g. iPhone 5(320px wide) and very large screens e.g. 5k iMac Pro(5120x2880px).
+
 Media queries are used for more responsiveness.
 
 
@@ -240,6 +243,8 @@ All content was written by me.
 
 ## Acknowledgements
 The Festival of Lights in Berlin inspires me for this project.
+
 My family for their patiences as I disappeared to code.
+
 My Mentor Brian Macharia for continuous helpful feedback.
 
