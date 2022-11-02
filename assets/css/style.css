@@ -161,7 +161,7 @@ footer p {
     font-size: 250%;
     color: #465866;
     text-align: center;
-    margin: 35px;
+    margin: 45px 30px 25px;
 }
 
 .team {
@@ -277,7 +277,7 @@ input {
 
 .send-button {
     padding: 10px;
-    font-size: 100%;
+    font-size: 90%;
     background-color: #465866;
     color: #fff;
     display: block;
@@ -291,7 +291,7 @@ input {
 
 
 /* Media queries */
-/* For medium screens sizes from 700px wide and down */
+/* For medium screens sizes from 635px wide and down */
 @media screen and (max-width: 635px) {
 
     #menu {

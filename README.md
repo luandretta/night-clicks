@@ -194,8 +194,43 @@ It can take some time for the page to be fully deployed.
 4. Open the terminal in the code editor of your choice and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-## Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure ther were no syntax errors in the project.
+# Testing 
+The different aspects of the site work as intended and have an expected outcome providing an easy and straightforward way for the users to achieve their goals.
+All tests passed.
+
+## Functionality
+The performance was tested manual and automated testing.
+* W3C Markup Validator and W3C CSS Validator Services were used to validate each page of the project to ensure that there were no syntax errors in the project.
+* All pages and images are loaded without issues.
+* All text is visable and appropriately positioned, text sizing and font are legible.
+* All links in the webpages are working correctly and there are no broken links.
+* The navbar links work correctly and the user is directed to the correct page each time.
+* 
+* The active page is pointed correctly in the menu.
+* The navigation links change text colour when hovering over.
+* Footer look the same on all pages. 
+* Social Media links are visible, readable and clickable.
+* The external links open in a new tab and that the address is correct.
+* The user controls the initiation of video playing on the about page.
+* The gallery images have sufficient resolution and an opacity when hovering over them.
+* The form is working as expected. If a user does not fill a mandatory field the form is not submitted.
+* The email input field must contain @ symbol to submit the form in the contact section.
+* The form submit button change the colour when hovering over.
+* The contact form was completed with valid inputs and clicked on Send Message, then the form was sucessfully submitted and Code Institute formdump.codeinstitute.net appeared showing values entered on the form.
+
+
+
+## Usability
+The Navigation was tested. The menu is easily visible, consistent on all webpages. The users find resources on the site intuitively.
+The images contain an "alt" text.
+
+## Compatibility 
+The website displays correctly across different browsers and screen sizes.
+It was checked on Chrome, Firefox, Safari and Edge.
+
+## Responsiveness
+Chrome developer tool have been used to check the responsivness. The application was tested on very small screens e.g. iPhone 5(320px wide) and very large screens e.g. 5k iMac Pro(5120x2880px).
+Media queries are used for more responsiveness.
 
 
 # Credits
