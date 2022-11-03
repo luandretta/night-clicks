@@ -4,6 +4,8 @@ Night Clicks is a website of a community based in Berlin that is passionate abou
 
 The night reveals how the lights reflect perfectly, highlighting the beauty of Berlin. The site contains precise information for users about all the events and how to be part of them.
 
+![Night Clicks Website shown on a range of devices](documentation/testing/responsive-design.PNG)
+
 ## Demo
 
 A live demo can be found [here](https://luandretta.github.io/night-clicks/)
@@ -76,8 +78,12 @@ Each page has a logo (top left), a navigation bar and a footer.
 
 The **Home** page is divided into 2 sections, the hero image and the information section.
 The hero image has the purpose to grab attention and give a positive impact to the user. 
+![Night Clicks Hero Image](documentation/hero-image.JPG)
+
+
 Below the image the user will find brief information to awake the interest to participate in the community.
 After reinforcing the emotional response positively in the user, there are upcoming meetings with dates and locations.
+![Night Clicks Events](documentation/events.JPG)
 
  ### **About page**
 
@@ -98,6 +104,8 @@ The **contact** page features a contact form, which requests user name and email
 The user can specify if he would like to give feedback or if he has a question or suggestion.
 The buttom of the form contains a Send Message.
 
+![Night Clicks Form](documentation/form.PNG)
+
 
 ### Existing Features
 - - -
@@ -106,6 +114,8 @@ All Pages on the website have:
 - Header Logo
 Exist on the top left. Clicking the logo returns users to the home page as they would expect.
 
+![Night Clicks logo and navigation bar](documentation/header.JPG)
+
 - Header Navigation Bar
 This allows the users to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button to find waht they are looking for quickly. 
 
@@ -113,6 +123,7 @@ This allows the users to easily navigate from page to page across all devices wi
 This allows all users to access the social platforms from the community and to keep conected via social media.
 The links will open to a new tab to allow easy navigation for the user.
 
+![Night Clicks Footer](documentation/footer.JPG)
 
 ### Future Implementations
 - - -
@@ -134,7 +145,7 @@ To keep users up to date.
 
 - Buttun back to the top - 
 For easy scroll-free return to the top.
-s
+
 - Menu "hamburger" - 
 For more responsiveness.
 
@@ -147,11 +158,12 @@ The website is as accessible friendly as possible:
 - Ensuring that there is a sufficient colour contrast throughtout the site.
 
 The accessibility was confirmed by running it through lighthouse in devtools.
-
+![Night Clicks Accebility](documentation/testing/accessibility.JPG)
 
 ## Color Scheme
 The greyscale color scheme was chosen to create a modern, minimalist and elegant touch, not disturbing the images. 
 
+![Night Clicks Website Colour Palette](documentation/color-scheme.JPG)
 
 ## Typography
 The fonts Allan und Lato are imported from Google Fonts.
@@ -196,11 +208,35 @@ It can take some time for the page to be fully deployed.
 
 # Testing 
 The different aspects of the site work as intended and have an expected outcome providing an easy and straightforward way for the users to achieve their goals.
-All tests passed.
+Chrome development tools were used during the development of the site to identify and resolve any issues as it progressed.
+The performance was tested manual and automated testing.
 
 ## Functionality
-The performance was tested manual and automated testing.
-* W3C Markup Validator and W3C CSS Validator Services were used to validate each page of the project to ensure that there were no syntax errors in the project.
+
+1. W3C Markup Validator and W3C CSS Validator Services were used to validate each page of the project to ensure that there were no syntax errors in the project.
+
+  * Index Page
+![Index Page HTML](documentation/testing/w3cindex.PNG)
+  * About Page
+![About Page HTML](documentation/testing/w3cabout.PNG)
+  * Gallery Page
+![Gallery Page HTML](documentation/testing/w3cgallery.PNG)
+  * Contact Page
+![Contact Page HTML](documentation/testing/w3ccontact.PNG)
+  * CSS Page
+![CSS Page](documentation/testing/w3ccss.PNG)
+
+2. Lighthouse within the Chrome Developer Tools are used to test performance, accessibility, best practices and SEO of the Night Click Website.
+ * Index Page
+![Index Page HTML](documentation/testing/measure-index.PNG)
+  * About Page
+![About Page HTML](documentation/testing/measure-about.PNG)
+  * Gallery Page
+![Gallery Page HTML](documentation/testing/measure-gallery.PNG)
+  * Contact Page
+![Contact Page HTML](documentation/testing/measure-contact.PNG)
+
+3. Manual as an user.
 * All pages and images are loaded without issues.
 * All text is visable and appropriately positioned, text sizing and font are legible.
 * All links in the webpages are working correctly and there are no broken links.
@@ -229,11 +265,23 @@ The website displays correctly across different browsers and screen sizes.
 
 It was checked on Chrome, Firefox, Safari and Edge.
 
+When using Safari browser, the submit button seems to have a bigger border-radius, but it doesn't affect the performance.
+
+![Button Send a Message](documentation/button.jpg)
+
+
 ## Responsiveness
 Chrome developer tool have been used to check the responsivness. The application was tested on very small screens e.g. iPhone 5(320px wide) and very large screens e.g. 5k iMac Pro(5120x2880px).
 
 Media queries are used for more responsiveness.
 
+## Solved bugs
+* H2 color from "Get in Touch" was #fff and was changed to #465866 because the accessibility.
+![Get in Touch](documentation/testing/get-in-touch.PNG)
+* The font-size were changed from px to rem for more responsiveness.
+* The content has a max-width of 2000px so that the site looks good on very large screens.
+* An Anchor element had been included in case the video in the iframe did not work, but it didn´t pass in the validation, so it was removed from the code.
+* Through the media query the menu, card text, form and iframe became responsive.
 
 # Credits
 
@@ -241,9 +289,8 @@ Media queries are used for more responsiveness.
 All content was written by me.
 
 ## Acknowledgements
-The Festival of Lights in Berlin inspires me for this project.
+* The Festival of Lights in Berlin inspires me for this project.
 
-My family for their patiences as I disappeared to code.
+* My family for their patiences as I disappeared to code.
 
-My Mentor Brian Macharia for continuous helpful feedback.
-
+* My Mentor Brian Macharia for continuous helpful feedback.
