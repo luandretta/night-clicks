@@ -72,17 +72,16 @@ The website is comprised of 4 pages, the index page, the about page, the gallery
 Each page has a logo (top left), a navigation bar and a footer.
 
 
-
  ### **Index page**
 
-The **Home** page is divided into 3 sections, the hero image, the information section and the events section.
+The **Home** page is divided into 2 sections, the hero image and the information section.
 The hero image has the purpose to grab attention and give a positive impact to the user. 
 Below the image the user will find brief information to awake the interest to participate in the community.
-After reinforcing the emotional response positively in the user, there are there are upcoming meetings with dates and locations.
+After reinforcing the emotional response positively in the user, there are upcoming meetings with dates and locations.
 
  ### **About page**
 
-The **About** page features The About page has four divisions and allows the future member to connect with the community without overloading then with information.
+The **About** page features has four divisions and allows the future member to connect with the community without overloading then with information.
 First, there is information about the community. 
 Second, about the characteristics of a future member.
 The third is with  information about how to participate in the community. 
