@@ -265,7 +265,7 @@ The website displays correctly across different browsers and screen sizes.
 
 It was checked on Chrome, Firefox, Safari and Edge.
 
-When using Safari browser, the submit button seems to have a bigger border-radius, but it doesn't affect the performance.
+When using Safari browser, the submit button renders differently, but it doesn't affect the performance.
 
 ![Button Send a Message](documentation/button.jpg)
 
