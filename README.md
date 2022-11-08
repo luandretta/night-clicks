@@ -4,7 +4,7 @@ Night Clicks is a website of a community based in Berlin that is passionate abou
 
 The night reveals how the lights reflect perfectly, highlighting the beauty of Berlin. The site contains precise information for users about all the events and how to be part of them.
 
-![Night Clicks Website shown on a range of devices](documentation/testing/responsive-design.PNG)
+![Night Clicks Website shown on a range of devices](documentation/responsive-design.PNG)
 
 ## Demo
 
